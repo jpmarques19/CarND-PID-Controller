@@ -17,6 +17,9 @@ public:
   double Ki;
   double Kd;
 
+  //necessary for diferential term calculation
+  double previous_cte;
+
   /*
   * Constructor
   */
